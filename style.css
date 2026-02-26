@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
+    background: #cceeff; /* celeste chiaro */
     margin: 0;
     padding: 0;
 }
@@ -23,10 +23,24 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* Colori personalizzati per i link di navigazione */
+nav a[href="storia.html"] {
+    color: red;
+}
+nav a[href="regole.html"] {
+    color: orange;
+}
+nav a[href="index.html"] {
+    color: yellow;
+}
+nav a[href="tattiche.html"] {
+    color: darkgreen;
+}
 main {
     max-width: 800px;
     margin: 2em auto;
-    background: white;
+    background: rgba(255,255,255,0.85); /* leggermente trasparente per vedere il celeste */
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -39,4 +53,12 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Titoli in blu */
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    /* rimosso lo sfondo celeste scuro */
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
 }
