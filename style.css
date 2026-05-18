@@ -42,6 +42,18 @@ main {
 main p {
     text-align: justify;
 }
+.image-collage {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em 0;
+}
+.image-collage .collage-img {
+    width: calc(50% - 0.5em);
+    max-width: 400px;
+    border-radius: 8px;
+}
 footer {
     text-align: center;
     padding: 1em 0;
